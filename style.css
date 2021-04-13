@@ -111,7 +111,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	padding: 20px;
-	width: 500px;
+	width: 340px;
 	margin: 0 auto;
 }
 
@@ -193,14 +193,33 @@ body {
 .light-bulb:last-of-type::after {
 	border: none;
 }
+@media (min-width: 768px) {
+	.light-bulbs {
+		width: 600px;
+	}
+}
+@media (min-width: 1200) {
+	.light-bulbs {
+		width: 749px;
+	}
+}
 /*SECTION SETTING OFF*/
+#container-setting {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+}
 .light-bulb-settings {
 	background: var(--white);
 	color: #333;
-	width: 500px;
-	margin: 30px auto 0;
+	width: fit-content;
 	padding: 20px;
 	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 .light-bulb-settings .group {
