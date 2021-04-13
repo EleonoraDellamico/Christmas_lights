@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--theme-color-one: #025ba0;
+	--theme-color-two: #9bc72b;
+	--theme-color-three: #f0c517;
+	--theme-color-four: #bf1724;
+	--theme-color-five: #5cc9f4;
+	--white: #fff;
+	--black: #000;
+	--grey: #999;
+	background: var(--black);
+	color: var(--white);
+}
+body {
+	font-family: 'Raleway', sans-serif;
+}
+.light-bulbs {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.light-bulb {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+
+.light-bulb.theme-color-one {
+	background: var(--theme-color-one);
+}
+
+.light-bulb.theme-color-two {
+	background: var(--theme-color-two);
+}
+
+.light-bulb.theme-color-three {
+	background: var(--theme-color-three);
+}
+
+.light-bulb.theme-color-four {
+	background: var(--theme-color-four);
+}
+
+.light-bulb.theme-color-five {
+	background: var(--theme-color-five);
+}
