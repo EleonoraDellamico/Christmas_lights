@@ -120,37 +120,49 @@ body {
 	height: 30px;
 	width: 30px;
 	position: relative;
-	animation-duration: 1.1s;
-	animation-iteration-count: infinite;
 }
+
 .light-bulbs.on .light-bulb {
 	animation-duration: 1.1s;
 	animation-iteration-count: infinite;
 }
-
 .light-bulbs.on .light-bulb.theme-color-one {
-	background: var(--theme-color-one);
 	animation-name: light-up-theme-color-one;
 }
 
 .light-bulbs.on .light-bulb.theme-color-two {
-	background: var(--theme-color-two);
 	animation-name: light-up-theme-color-two;
 }
 
 .light-bulbs.on .light-bulb.theme-color-three {
-	background: var(--theme-color-three);
 	animation-name: light-up-theme-color-three;
 }
 
 .light-bulbs.on .light-bulb.theme-color-four {
-	background: var(--theme-color-four);
 	animation-name: light-up-theme-color-four;
 }
 
 .light-bulbs.on .light-bulb.theme-color-five {
-	background: var(--theme-color-five);
 	animation-name: light-up-theme-color-five;
+}
+.light-bulb.theme-color-one {
+	background: var(--theme-color-one);
+}
+
+.light-bulb.theme-color-two {
+	background: var(--theme-color-two);
+}
+
+.light-bulb.theme-color-three {
+	background: var(--theme-color-three);
+}
+
+.light-bulb.theme-color-four {
+	background: var(--theme-color-four);
+}
+
+.light-bulb.theme-color-five {
+	background: var(--theme-color-five);
 }
 
 .light-bulb::before {
