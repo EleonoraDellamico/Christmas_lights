@@ -12,14 +12,56 @@
 <body>
     <!--LIGHTS BULBS-->
      <section class="light-bulbs">
-      <div class="light-bulb theme-color-one"></div>
-      <div class="light-bulb theme-color-two"></div>
-      <div class="light-bulb theme-color-three"></div>
-      <div class="light-bulb theme-color-four"></div>
-      <div class="light-bulb theme-color-five"></div>
-      <div class="light-bulb theme-color-one"></div>
+      <div class="light-bulb theme-color-one">
+           <input
+          type="color"
+          class="color-setting hidden"
+          value="#025ba0"
+          data-theme-color="one"
+        />
+      </div>
+      <div class="light-bulb theme-color-two">
+        <input
+          type="color"
+          class="color-setting hidden"
+          value="#9bc72b"
+          data-theme-color="two"
+        />      
+      </div>
+      <div class="light-bulb theme-color-three">
+          <input
+          type="color"
+          class="color-setting hidden"
+          value="#f0c517"
+          data-theme-color="three"
+        />
+      </div>
+      <div class="light-bulb theme-color-four">
+          <input
+          type="color"
+          class="color-setting hidden"
+          value="#bf1724"
+          data-theme-color="four"
+        />
+      </div>
+      <div class="light-bulb theme-color-five">
+          <input
+          type="color"
+          class="color-setting hidden"
+          value="#5cc9f4"
+          data-theme-color="five"
+        />
+      </div>
+      <div class="light-bulb theme-color-one">
+          <input
+          type="color"
+          class="color-setting hidden"
+          value="#025ba0"
+          data-theme-color="one"
+        />
+      </div>
     </section>
-    <!--LIGHTS SETTINGS-->
+    <!--LIGHTS SETTINGS STATE AND DURATION-->
     <section class="light-bulb-settings">
       <h3>Settings</h3>
       <div class="group">
@@ -40,6 +82,8 @@
           max="2"
         />
       </div>
+
+      <button class="color-wheel">Toggle color wheel</button>
     </section>
     <script src="index.js"></script>
 </body>
